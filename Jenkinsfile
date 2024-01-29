@@ -1,6 +1,6 @@
 pipeline {
   agent {
-    label 'buildNode'
+    label 'buildnode'
   } 
   options {
     buildDiscarder logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '5', daysToKeepStr: '', numToKeepStr: '5')
